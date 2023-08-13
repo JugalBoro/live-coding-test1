@@ -1,0 +1,14 @@
+
+.starship-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.starship-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 300px;
+    text-align: left;
+}

@@ -1,0 +1,74 @@
+/* App.css */
+.App {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-list {
+    flex: 1;
+    padding: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+}
+
+.open-cart-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cart {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.cart button {
+    padding: 0.2rem 0.5rem;
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.close-button {
+    background-color: #ccc;
+}
